@@ -843,8 +843,7 @@ Final price depends on project size, features, data volume, hosting, and whether
         "answer": """
 You can contact Kinkini through:
 
-Email: kinkinimajumder@gmail.com  
-Phone: 9734612057  
+Email: kinkinimajumder@gmail.com   
 LinkedIn: https://www.linkedin.com/in/kinkini-majumdar-781b1b186/  
 
 You can message her for chatbot, dashboard, Excel reporting, AI backend, RAG prototype, or data analysis work.
@@ -947,7 +946,7 @@ Kinkini is based in Kolkata, West Bengal.
             "are you fluent in english"
         ],
         "answer": """
-Kinkini is fluent in English,Hindi and Bengali, and has strong communication, presentation, teamwork, and interpersonal skills.
+Kinkini is fluent in English, Hindi and Bengali, and has strong communication, presentation, teamwork, and interpersonal skills.
 """
     }
 }

@@ -4,10 +4,9 @@ from faqs import FAQS
 CONTACT_DETAILS = """
 You can contact Kinkini through:
 
-Email: kinkinimajumder@gmail.com  
-Phone: 9734612057  
+Email: kinkinimajumder@gmail.com    
 LinkedIn: Add your LinkedIn profile link here  
-GitHub: Add your GitHub profile link here
+
 """
 
 
