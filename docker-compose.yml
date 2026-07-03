@@ -1,3 +1,30 @@
+# services:
+#   backend:
+#     build:
+#       context: ./backend
+#     container_name: ask-kinkini-backend
+#     ports:
+#       - "8000:8000"
+#     volumes:
+#       - ./backend/app:/app
+#     restart: unless-stopped
+
+#   frontend:
+#     build:
+#       context: ./frontend
+#     container_name: ask-kinkini-frontend
+#     ports:
+#       - "8501:8501"
+#     volumes:
+#       - ./frontend/app:/app
+#     environment:
+#       - BACKEND_URL=http://backend:8000
+#     depends_on:
+#       - backend
+#     restart: unless-stopped
+
+
+
 services:
   backend:
     build:
@@ -7,6 +34,8 @@ services:
       - "8000:8000"
     volumes:
       - ./backend/app:/app
+    env_file:
+      - ./backend/.env
     restart: unless-stopped
 
   frontend:
